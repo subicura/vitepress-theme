@@ -38,18 +38,6 @@ const hasContent = computed(() => {
   display: none;
 }
 
-@media (min-width: 768px) {
-  .VPNavBarExtra {
-    display: block;
-  }
-}
-
-@media (min-width: 1280px) {
-  .VPNavBarExtra {
-    display: none;
-  }
-}
-
 .item {
   display: flex;
   align-items: center;

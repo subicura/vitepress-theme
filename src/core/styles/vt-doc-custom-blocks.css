@@ -1,11 +1,11 @@
 .vt-doc .custom-block {
-  margin: 28px 0;
-  padding: 20px 24px 4px 42px;
-  border-radius: 8px;
+  margin: 20px 0;
+  padding: 18px 20px 4px 42px;
+  border-radius: 5px;
   overflow-x: auto;
   transition: color 0.5s, background-color 0.5s;
   position: relative;
-  font-size: 14px;
+  font-size: 15px;
   line-height: 1.6;
   font-weight: 500;
   color: rgba(0, 0, 0, 0.55);
@@ -20,17 +20,17 @@
   content: 'ⓘ';
   position: absolute;
   font-weight: 600;
-  font-size: 15px;
-  top: 20px;
+  font-size: 18px;
+  top: 16px;
   left: 17px;
 }
 
 .vt-doc .custom-block.warning:before,
 .vt-doc .custom-block.danger:before {
   content: '⚠';
-  font-size: 17px;
-  top: 19px;
-  left: 16ppx;
+  font-size: 18px;
+  top: 16px;
+  left: 16px;
 }
 
 .vt-doc .custom-block .custom-block-title {

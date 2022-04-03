@@ -8,13 +8,13 @@ defineProps<{
   item: MenuItemWithLink
 }>()
 
-const { page } = useData()
+const { page, site } = useData()
 const closeSideBar = inject('close-sidebar') as () => void
 </script>
 
 <template>
   <a
-    :class="{ link: true, active: isActive(page.relativePath, item.link) }"
+    :class="{ link: true, active: isActive(page.relativePath, item.link.substring(site.base.length - 1)) }"
     :href="item.link"
     @click="closeSideBar"
   >
@@ -47,7 +47,7 @@ const closeSideBar = inject('close-sidebar') as () => void
 
 .link-text {
   line-height: 20px;
-  font-size: 13px;
+  font-size: 14px;
   font-weight: 500;
   color: var(--vt-c-text-2);
   transition: color 0.5s;

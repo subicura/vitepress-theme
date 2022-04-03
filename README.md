@@ -35,7 +35,7 @@ To work on this theme in the context of the `vuejs.org` website requires cloning
    # in ./docs
    pnpm install
    # Link teme
-   pnpm link --global @vue/theme
+   pnpm link --global @subicura/vitepress-theme
    ```
 
 3. Start VitePress server:

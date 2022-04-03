@@ -15,22 +15,24 @@ const loaded = ref(false)
 const metaKey = ref()
 
 onMounted(() => {
-  // meta key detect (same logic as in @docsearch/js)
-  metaKey.value.textContent = /(Mac|iPhone|iPod|iPad)/i.test(navigator.platform)
-    ? '⌘'
-    : 'Ctrl'
-  const handleSearchHotKey = (e: KeyboardEvent) => {
-    if (e.key === 'k' && (e.ctrlKey || e.metaKey)) {
-      e.preventDefault()
-      load()
-      remove()
+  if (theme.algolia) {
+    // meta key detect (same logic as in @docsearch/js)
+    metaKey.value.textContent = /(Mac|iPhone|iPod|iPad)/i.test(navigator.platform)
+      ? '⌘'
+      : 'Ctrl'
+    const handleSearchHotKey = (e: KeyboardEvent) => {
+      if (e.key === 'k' && (e.ctrlKey || e.metaKey)) {
+        e.preventDefault()
+        load()
+        remove()
+      }
     }
+    const remove = () => {
+      window.removeEventListener('keydown', handleSearchHotKey)
+    }
+    window.addEventListener('keydown', handleSearchHotKey)
+    onUnmounted(remove)
   }
-  const remove = () => {
-    window.removeEventListener('keydown', handleSearchHotKey)
-  }
-  window.addEventListener('keydown', handleSearchHotKey)
-  onUnmounted(remove)
 })
 
 function load() {
