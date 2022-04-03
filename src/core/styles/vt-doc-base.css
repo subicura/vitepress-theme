@@ -13,6 +13,7 @@
   font-weight: 600;
   line-height: 1.5;
   outline: none;
+  word-break: keep-all;
 }
 
 .vt-doc h1 {

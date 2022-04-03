@@ -82,6 +82,7 @@ a {
 .title {
   color: var(--vt-c-brand);
   transition: color 0.25s;
+  word-break: keep-all;
 }
 
 a:hover .title {
