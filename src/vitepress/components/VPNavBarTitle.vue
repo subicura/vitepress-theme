@@ -5,7 +5,7 @@ const { site } = useData()
 </script>
 
 <template>
-  <a class="VPNavBarTitle" href="/">
+  <a class="VPNavBarTitle" :href="withBase('/')">
     <img class="logo" :src="withBase('/icons/apple-touch-icon.png')" />
     <span class="text">{{ site.title }}</span>
   </a>

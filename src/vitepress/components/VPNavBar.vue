@@ -20,7 +20,6 @@ defineProps<{
       <div class="content">
         <VPNavBarSearch class="search" />
         <VPNavBarMenu class="menu" />
-        <div style="flex-grow: 1;"></div>
         <VPNavBarAppearance class="appearance" />
         <VPNavBarSocialLinks class="social-links" />
         <VPNavBarExtra class="extra" />
