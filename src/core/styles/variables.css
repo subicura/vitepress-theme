@@ -142,7 +142,7 @@
  * -------------------------------------------------------------------------- */
 
 :root {
-  --vt-font-family-base: Inter, -apple-system,
+  --vt-font-family-base: "Apple SD Neo Gothic", -apple-system,
     BlinkMacSystemFont, "Malgun Gothic", "맑은고딕", 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,
     'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
   --vt-font-family-mono: Menlo, Monaco, Consolas, 'Courier New', monospace;

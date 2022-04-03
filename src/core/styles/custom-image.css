@@ -2,9 +2,13 @@
   text-align: center;
 }
   
+.vt-doc picture {
+  display: block;
+  margin-bottom: 1.2em;
+}
+
 .image-150 {
   text-align: center;
-  margin-bottom: 1.2em;
   margin-top: 15px;
 }
 
@@ -16,7 +20,6 @@
 
 .image-200 {
   text-align: center;
-  margin-bottom: 1.2em;
   margin-top: 15px;
 }
 
@@ -28,7 +31,6 @@
 
 .image-250 {
   text-align: center;
-  margin-bottom: 1.2em;
   margin-top: 15px;
 }
 
@@ -40,7 +42,6 @@
 
 .image-300 {
   text-align: center;
-  margin-bottom: 1.2em;
   margin-top: 15px;
 }
 
@@ -52,7 +53,6 @@
 
 .image-350 {
   text-align: center;
-  margin-bottom: 1.2em;
   margin-top: 15px;
 }
 
@@ -64,7 +64,6 @@
 
 .image-400 {
   text-align: center;
-  margin-bottom: 1.2em;
   margin-top: 15px;
 }
 
@@ -76,7 +75,6 @@
 
 .image-450 {
   text-align: center;
-  margin-bottom: 1.2em;
   margin-top: 15px;
 }
 
@@ -88,7 +86,6 @@
 
 .image-500 {
   text-align: center;
-  margin-bottom: 1.2em;
   margin-top: 15px;
 }
 
@@ -100,7 +97,6 @@
 
 .image-550 {
   text-align: center;
-  margin-bottom: 1.2em;
   margin-top: 15px;
 }
 
@@ -112,7 +108,6 @@
 
 .image-600 {
   text-align: center;
-  margin-bottom: 1.2em;
   margin-top: 15px;
 }
 
@@ -124,7 +119,6 @@
 
 .image-650 {
   text-align: center;
-  margin-bottom: 1.2em;
   margin-top: 15px;
 }
 
@@ -136,7 +130,6 @@
 
 .image-700 {
   text-align: center;
-  margin-bottom: 1.2em;
   margin-top: 15px;
 }
 
@@ -148,7 +141,6 @@
 
 .image-750 {
   text-align: center;
-  margin-bottom: 1.2em;
   margin-top: 15px;
 }
 
