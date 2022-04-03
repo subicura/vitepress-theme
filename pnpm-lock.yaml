@@ -3,6 +3,7 @@ lockfileVersion: 5.3
 specifiers:
   '@docsearch/css': ^3.0.0-alpha.41
   '@docsearch/js': ^3.0.0-alpha.41
+  '@subicura/vitepress-theme': ^1.0.2
   '@types/body-scroll-lock': ^2.6.1
   '@types/estree': ^0.0.48
   '@vueuse/core': ^7.3.0
@@ -17,6 +18,7 @@ specifiers:
 dependencies:
   '@docsearch/css': 3.0.0-alpha.41
   '@docsearch/js': 3.0.0-alpha.41
+  '@subicura/vitepress-theme': 1.0.2_vue@3.2.26
   '@vueuse/core': 7.3.0_vue@3.2.26
   body-scroll-lock: 3.1.5
   normalize.css: 8.0.1
@@ -158,6 +160,24 @@ packages:
       algoliasearch: 4.10.5
     transitivePeerDependencies:
       - '@algolia/client-search'
+
+  /@subicura/vitepress-theme/1.0.2_vue@3.2.26:
+    resolution: {integrity: sha512-rWv63YNwFTwTPanRKW9YAe8P1whId/9CcHLLDn/sSiRzUylZ1luUPp3qbk30kngi3vsb1t8r/Bv4sjx0kW9U2w==}
+    dependencies:
+      '@docsearch/css': 3.0.0-alpha.41
+      '@docsearch/js': 3.0.0-alpha.41
+      '@vueuse/core': 7.3.0_vue@3.2.26
+      body-scroll-lock: 3.1.5
+      normalize.css: 8.0.1
+      shiki: 0.9.15
+    transitivePeerDependencies:
+      - '@algolia/client-search'
+      - '@types/react'
+      - '@vue/composition-api'
+      - react
+      - react-dom
+      - vue
+    dev: false
 
   /@types/body-scroll-lock/2.6.2:
     resolution: {integrity: sha512-PhoQPbwPYspXqf7lkwtF7aJzAwL88t+9E/e0b2X84tlHpU8ZuS9UNnLtkT0XhyZJYHpET5qRfIdZ0HBIxuc7HQ==}
