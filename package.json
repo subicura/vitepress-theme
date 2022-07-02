@@ -1,6 +1,6 @@
 {
   "name": "@subicura/vitepress-theme",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "The design system for Vue.js.",
   "main": "src/index.ts",
   "exports": {

@@ -64,6 +64,13 @@ $ npm run lint
 $ npm run type
 ```
 
+### Publish
+
+```bash
+npm login
+npm publish
+```
+
 ## License
 
 [MIT](http://opensource.org/licenses/MIT)
