@@ -126,8 +126,14 @@
 
 .vt-doc th,
 .vt-doc td {
+  font-family: var(--vt-font-family-mono);
   border: 1px solid var(--vt-c-divider);
   padding: 0.6em 1em;
+  font-size: 14px;
+}
+
+.vt-doc th {
+  font-size: 15px;
 }
 
 .vt-doc blockquote {
