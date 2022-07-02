@@ -1,5 +1,6 @@
 <script lang="ts" setup>
 import { useData, useRoute } from 'vitepress'
+import { useCopyCode } from '../composables/copy-code'
 import { useSidebar } from '../composables/sidebar'
 import VPContentPage from './VPContentPage.vue'
 import VPContentDoc from './VPContentDoc.vue'
@@ -9,6 +10,7 @@ const route = useRoute()
 const { frontmatter } = useData()
 const { hasSidebar } = useSidebar()
 
+useCopyCode()
 </script>
 
 <template>
